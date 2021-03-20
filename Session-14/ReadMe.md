@@ -105,7 +105,7 @@ plt.title('Source Histogram')
 plt.show() 
 ```
 ```
-![input](https://github.com/ranjanguddu/ENDPhase1/upload/main/Session-14/source.png)
+![](images/source.png)
 ```
 We can see from the above histogram that we can cover more than 80 percent sample with source sequence length less than 300 and target sequence length less than 400. Hence we have chosen only those samples having source length less than 300 and target length less than 400. 
 
