@@ -81,10 +81,9 @@ plt.title('Target Histogram')
 # function to show the plot 
 plt.show() 
 ```
-```
-<img src="./target.png" width="800" />
 
-```
+![Target](https://github.com/ranjanguddu/ENDPhase1/tree/main/Session-14/target.png)
+
 Let's do with target sequences:
 ```python
 # setting the ranges and no. of intervals 
@@ -105,9 +104,10 @@ plt.title('Source Histogram')
 # function to show the plot 
 plt.show() 
 ```
-```
-![](images/source.png)
-```
+
+![Source](https://github.com/ranjanguddu/ENDPhase1/tree/main/Session-14/source.png)
+
+
 We can see from the above histogram that we can cover more than 80 percent sample with source sequence length less than 300 and target sequence length less than 400. Hence we have chosen only those samples having source length less than 300 and target length less than 400. 
 
 
