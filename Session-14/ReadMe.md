@@ -129,7 +129,7 @@ After trying many other loss function, finally I found cross-entropy is better.
 
 python-code embedding
 ---
-Used Python tokenizer library to take care of INDENT, NEW_LINE, COLON etc. and then parse through spacy_en model.
+Used Python tokenizer library to take care of INDENT, NEW_LINE, COLON etc. and then parse through spacy_en model. Thanks to [Anubhab](https://in.linkedin.com/in/anubhabpanda) for helping me with this Python Tokenizer code.
 
 Trained Model Output:
 ---
