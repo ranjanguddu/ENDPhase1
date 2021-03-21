@@ -15,7 +15,24 @@ You can find the used sample code file (Data file) what we used to train the mod
 ---
 ## Data Cleaning
 ---
-For data cleaning firstly I tried to split the Data file. But it couldn't work as there are many comments line within the Program. So, finally I did some manual cleaning and create a file name 'Cleaned_Eng_Python_Data.txt' using Regex and then wrote a Python code to break the data in (key,value) : (English, Python) form.
+For data cleaning firstly I tried to split the Data file. But it couldn't work as there are many comments line within the Program. So, finally I did some manual cleaning using below code and REGEX. Few basic thing to clean and break the data:
+```python
+limit =  len(splitted_content)
+bad_list =[]
+for i in range(1, limit):
+    temp = splitted_content[i].split('\n',1)
+    if len(temp)==2:
+        bad_list.append(i)
+#print(bad_list) 
+
+print(f'length of bad list is: {len(bad_list)}')
+
+
+REGEX Statement:
+#\s*\d*\s*(wr|fun|pyt|Fun|Pro|progr|Class|class|sho|gener)
+```
+And finally create a file name 'Cleaned_Eng_Python_Data.txt' using Regex and then wrote a Python code to break the data in (key,value) : (English, Python) form.
+
 ```python
 fundict ={}
 with open('Cleaned_Eng_Python_Data.txt', 'r') as fR:
