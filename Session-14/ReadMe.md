@@ -82,7 +82,7 @@ plt.title('Target Histogram')
 plt.show() 
 ```
 ```
-<img src="target.png" width="800" />
+<img src="./target.png" width="800" />
 
 ```
 Let's do with target sequences:
